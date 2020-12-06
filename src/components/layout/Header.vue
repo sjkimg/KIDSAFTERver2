@@ -33,7 +33,7 @@
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template v-slot:button-content>
-              <em>사용자</em>
+              사용자
             </template>
             <b-dropdown-item href="#">내 정보</b-dropdown-item>
             <b-dropdown-item href="#">회원탈퇴</b-dropdown-item>
@@ -44,28 +44,27 @@
     </b-navbar>
     <div class="left">
       <ul>
-        <li id='logo'>
+        <li id='logo'><a href="/mainpage/info">
           <div>KIDS</div>
           <div>AFTER</div>
-        </li>
-        <li>키즈앱터소개</li>
+        </a></li>
+        <li id='info'><a href="/mainpage/info">키즈앱터소개</a></li>
         <li>아동돌봄서비스/센터</li>
         <ol>
-          <li>가정방문형 서비스</li>
-          <li>센터방문형 서비스</li>
-          <li>아동돌봄공동체</li>
+          <li id='location'><a href="/mainpage/servicecenter/location">내 주변에서 찾아보기</a></li>
+          <li id='keyword'><a href="/mainpage/servicecenter/location">키워드로 찾아보기</a></li>
         </ol>
         <li>함께 즐길 컨텐츠</li>
         <ol>
-          <li>설문으로 추천받기</li>
-          <li>키워드로 추천받기</li>
-          <li>날씨로 추천받기</li>
+          <li id='paper'>설문으로 추천받기</li>
+          <li id='keyword'>키워드로 추천받기</li>
+          <li id='weather'>날씨로 추천받기</li>
         </ol>
         <li>게시판</li>
         <ol>
-          <li>공지사항</li>
-          <li>QnA</li>
-          <li>건의사항</li>
+          <li id='notice'>공지사항</li>
+          <li id='qna'>QnA</li>
+          <li id='feedback'>건의사항</li>
         </ol>
         <li id='company'>
           <div>Welcome to KIDS AFTER</div>
@@ -78,12 +77,17 @@
 <script>
 export default {
   name: "header",
+  methods:{
+    method(){
+      console.log("method");
+    }
+  }
 };
 </script>
 <style>
   a{color:black}
   .left{
-    position:fixed; 
+    position:auto; 
     top:116px; 
     left:0px; 
     width:250px; 
@@ -96,4 +100,24 @@ export default {
   .left ul li#logo {font-family: 'Passion One', cursive; font-size:50px; height:170px;}
   .left ul li#logo div {line-height: 0.8;}
   .left ul li#company {font-size:16px; margin-top:100px; }
+  #logo a{
+    display:block;
+    color:black;
+    text-decoration: none;
+  }
+  #info a{
+    display:block;
+    color:black;
+    text-decoration: none;
+  }
+  #location a{
+    display:block;
+    color:black;
+    text-decoration: none;
+  }
+  #keyword a{
+    display:block;
+    color:black;
+    text-decoration: none;
+  }
 </style>

@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "./components/views/Home";
-import MainPage from "./components/views/MainPage";
+import Info from "./components/views/Info";
+import Location from "./components/views/Location";
 
 Vue.use(VueRouter);
 
@@ -9,12 +9,12 @@ const router = new VueRouter({
   mode: "history",
   routes: [
     {
-      path: "/",
-      component: Home
+      path: "/mainpage/info",
+      component: Info
     },
     {
-      path: "/mainpage",
-      component: MainPage
+      path: "/mainpage/servicecenter/location",
+      component: Location
     }
   ]
 });
