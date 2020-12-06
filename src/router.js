@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "./components/views/Home";
-import About from "./components/views/About";
+import MainPage from "./components/views/MainPage";
 
 Vue.use(VueRouter);
 
@@ -13,8 +13,8 @@ const router = new VueRouter({
       component: Home
     },
     {
-      path: "/about",
-      component: About
+      path: "/mainpage",
+      component: MainPage
     }
   ]
 });

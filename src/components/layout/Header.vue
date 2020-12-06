@@ -50,8 +50,23 @@
         </li>
         <li>키즈앱터소개</li>
         <li>아동돌봄서비스/센터</li>
+        <ol>
+          <li>가정방문형 서비스</li>
+          <li>센터방문형 서비스</li>
+          <li>아동돌봄공동체</li>
+        </ol>
         <li>함께 즐길 컨텐츠</li>
+        <ol>
+          <li>설문으로 추천받기</li>
+          <li>키워드로 추천받기</li>
+          <li>날씨로 추천받기</li>
+        </ol>
         <li>게시판</li>
+        <ol>
+          <li>공지사항</li>
+          <li>QnA</li>
+          <li>건의사항</li>
+        </ol>
         <li id='company'>
           <div>Welcome to KIDS AFTER</div>
           <div>Copyright ⓒ by 오합지존<br>All Rights Reserved.</div>
@@ -77,8 +92,8 @@ export default {
     padding:40px 0;
   }
   .left ul {padding: 0 30px;}
-  .left ul li { list-style: none; font-size:20px; font-weight: bold; height:75px; float:left;} 
+  .left ul li { list-style: none; text-align:left; font-size:15px; font-weight: bold; height:30px;} 
   .left ul li#logo {font-family: 'Passion One', cursive; font-size:50px; height:170px;}
   .left ul li#logo div {line-height: 0.8;}
-  .left ul li#company {font-size:16px; margin-top:200px; }
+  .left ul li#company {font-size:16px; margin-top:100px; }
 </style>
