@@ -8,6 +8,9 @@ import ChildCenHom from "./components/views/ChildCenHom";
 import IvReco from "./components/views/IvReco";
 import KeyReco from "./components/views/KeyReco";
 import WtReco from "./components/views/WtReco";
+import Notice from "./components/views/Notice";
+import QnA from "./components/views/QnA";
+import WishBoard from "./components/views/WishBoard";
 
 Vue.use(VueRouter);
 
@@ -47,6 +50,18 @@ const router = new VueRouter({
       path: "/mainpage/togecon/wtreco",
       component: WtReco
     },
+    {
+      path: "/mainpage/textboard/notice",
+      component: Notice
+    },
+    {
+      path: "/mainpage/textboard/qna",
+      component: QnA
+    },
+    {
+      path: "/mainpage/textboard/wishboard",
+      component: WishBoard
+    }
   ]
 });
 
