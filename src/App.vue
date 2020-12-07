@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Sidebar />
     <div id="content" class="content">
       <router-view></router-view>
     </div>
@@ -9,10 +10,12 @@
 
 <script>
 import Header from './components/layout/Header.vue'
+import Sidebar from './components/layout/Sidebar.vue'
 export default {
   name: 'App',
   components: {
     Header,
+    Sidebar,
   }
 }
 </script>

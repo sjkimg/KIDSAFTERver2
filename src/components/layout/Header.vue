@@ -42,82 +42,12 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-    <div class="left">
-      <ul>
-        <li id='logo'><a href="/mainpage/info">
-          <div>KIDS</div>
-          <div>AFTER</div>
-        </a></li>
-        <li id='info'><a href="/mainpage/info">키즈앱터소개</a></li>
-        <li>아동돌봄서비스/센터</li>
-        <ol>
-          <li id='location'><a href="/mainpage/servicecenter/location">내 주변에서 찾아보기</a></li>
-          <li id='keyword'><a href="/mainpage/servicecenter/location">키워드로 찾아보기</a></li>
-        </ol>
-        <li>함께 즐길 컨텐츠</li>
-        <ol>
-          <li id='paper'>설문으로 추천받기</li>
-          <li id='keyword'>키워드로 추천받기</li>
-          <li id='weather'>날씨로 추천받기</li>
-        </ol>
-        <li>게시판</li>
-        <ol>
-          <li id='notice'>공지사항</li>
-          <li id='qna'>QnA</li>
-          <li id='feedback'>건의사항</li>
-        </ol>
-        <li id='company'>
-          <div>Welcome to KIDS AFTER</div>
-          <div>Copyright ⓒ by 오합지존<br>All Rights Reserved.</div>
-        </li>
-      </ul>
-    </div>
   </div>
 </template>
 <script>
 export default {
   name: "header",
-  methods:{
-    method(){
-      console.log("method");
-    }
-  }
 };
 </script>
 <style>
-  a{color:black}
-  .left{
-    position:auto; 
-    top:116px; 
-    left:0px; 
-    width:250px; 
-    height:1000px; 
-    background:rgba(197, 196, 196, 0.6); 
-    padding:40px 0;
-  }
-  .left ul {padding: 0 30px;}
-  .left ul li { list-style: none; text-align:left; font-size:15px; font-weight: bold; height:30px;} 
-  .left ul li#logo {font-family: 'Passion One', cursive; font-size:50px; height:170px;}
-  .left ul li#logo div {line-height: 0.8;}
-  .left ul li#company {font-size:16px; margin-top:100px; }
-  #logo a{
-    display:block;
-    color:black;
-    text-decoration: none;
-  }
-  #info a{
-    display:block;
-    color:black;
-    text-decoration: none;
-  }
-  #location a{
-    display:block;
-    color:black;
-    text-decoration: none;
-  }
-  #keyword a{
-    display:block;
-    color:black;
-    text-decoration: none;
-  }
 </style>

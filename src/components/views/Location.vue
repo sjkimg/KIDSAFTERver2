@@ -7,7 +7,7 @@
     </div>
     <div class="righttop">
         <b-button id="around" href="/mainpage/servicecenter/location" variant="outline-primary">내 주변에서 찾아보기</b-button>
-        <b-button href="/mainpage/info" variant="outline-primary">키워드로 찾아보기</b-button>
+        <b-button href="/mainpage/servicecenter/kwloc" variant="outline-primary">키워드로 찾아보기</b-button>
     </div>
 
 
