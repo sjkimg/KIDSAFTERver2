@@ -11,11 +11,11 @@
         <span id="con4">그냥정적웹할걸</span>
         
         <div class="togecenter">
-            <b-button id="intv" size="lg" variant="outline-primary">설문으로 추천받기</b-button>
+            <b-button id="intv" size="lg" variant="outline-primary" href="/#/mainpage/togecon/ivreco">설문으로 추천받기</b-button>
             <br><br>
-            <b-button id="kyto" size="lg" variant="outline-primary">키워드로 추천받기</b-button>
+            <b-button id="kyto" size="lg" variant="outline-primary" href="/#/mainpage/togecon/keyreco">키워드로 추천받기</b-button>
             <br><br>
-            <b-button id="weth" size="lg" variant="outline-primary">날씨로 추천받기</b-button>
+            <b-button id="weth" size="lg" variant="outline-primary" href="/#/mainpage/togecon/wtreco">날씨로 추천받기</b-button>
         </div>
     </div>
 </template>

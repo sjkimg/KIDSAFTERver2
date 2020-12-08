@@ -1,21 +1,21 @@
 <template>
     <div class="left">
       <ul>
-        <li id='logoS'><a href="/mainpage/info">
+        <li id='logoS'><a href="/#/mainpage/info">
           <div>KIDS</div>
           <div>AFTER</div>
         </a></li>
-        <li id='infoS'><a href="/mainpage/info">키즈앱터소개</a></li>
-        <li id='chcenhomS'><a href="/mainpage/servicecenter">아동돌봄서비스/센터</a></li>
+        <li id='infoS'><a href="/#/mainpage/info">키즈앱터소개</a></li>
+        <li id='chcenhomS'><a href="/#/mainpage/servicecenter">아동돌봄서비스/센터</a></li>
         <ol>
-          <li id='locationS'><a href="/mainpage/servicecenter/location">내 주변에서 찾아보기</a></li>
-          <li id='keywordS'><a href="/mainpage/servicecenter/kwloc">키워드로 찾아보기</a></li>
+          <li id='locationS'><a href="/#/mainpage/servicecenter/location">내 주변에서 찾아보기</a></li>
+          <li id='keywordS'><a href="/#/mainpage/servicecenter/kwloc">키워드로 찾아보기</a></li>
         </ol>
-        <li id='conhomeS'><a href="/mainpage/togecon">함께 즐길 컨텐츠</a></li>
+        <li id='conhomeS'><a href="/#/mainpage/togecon">함께 즐길 컨텐츠</a></li>
         <ol>
-          <li id='ivrecoS'><a href="/mainpage/togecon/ivreco">설문으로 추천받기</a></li>
-          <li id='keyrecoS'><a href="/mainpage/togecon/keyreco">키워드로 추천받기</a></li>
-          <li id='wtrecoS'><a href="/mainpage/togecon/wtreco">날씨로 추천받기</a></li>
+          <li id='ivrecoS'><a href="/#/mainpage/togecon/ivreco">설문으로 추천받기</a></li>
+          <li id='keyrecoS'><a href="/#/mainpage/togecon/keyreco">키워드로 추천받기</a></li>
+          <li id='wtrecoS'><a href="/#/mainpage/togecon/wtreco">날씨로 추천받기</a></li>
         </ol>
         <li>게시판</li>
         <ol>
