@@ -4,9 +4,9 @@
         <img id="wordcloud" src="https://cdn.pixabay.com/photo/2018/03/11/16/06/wordcloud-3217146_960_720.jpg" width="800" height="auto" />
         
         <div class="togelist">
-            <b-button id="intvl" variant="outline-primary" href="/#/mainpage/togecon/ivreco">설문으로 추천받기</b-button>
-            <b-button id="kytol" variant="outline-primary" href="/#/mainpage/togecon/keyreco">키워드로 추천받기</b-button>
-            <b-button id="wethl" variant="outline-primary" href="/#/mainpage/togecon/wtreco">날씨로 추천받기</b-button>
+            <b-button id="intvl" variant="outline-primary" href="/mainpage/togecon/ivreco">설문으로 추천받기</b-button>
+            <b-button id="kytol" variant="outline-primary" href="/mainpage/togecon/keyreco">키워드로 추천받기</b-button>
+            <b-button id="wethl" variant="outline-primary" href="/mainpage/togecon/wtreco">날씨로 추천받기</b-button>
         </div>
         <div class="ytwrap">
             <div class="ytcontent">

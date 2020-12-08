@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="xl" type="dark" variant="dark">
-      <b-navbar-brand to="/#/mainpage/info">키즈앱터로고</b-navbar-brand><!--나중에로고이미지넣기-->
+      <b-navbar-brand to="/mainpage/info">키즈앱터로고</b-navbar-brand><!--나중에로고이미지넣기-->
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <!--화면이 작아졌을 때 메뉴 대신 보여지는 버튼-->
