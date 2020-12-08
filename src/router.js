@@ -11,12 +11,18 @@ import WtReco from "./components/views/WtReco";
 import Notice from "./components/views/Notice";
 import QnA from "./components/views/QnA";
 import WishBoard from "./components/views/WishBoard";
+import Hello from "./components/views/Hello";
 
 Vue.use(VueRouter);
 
 const router = new VueRouter({
   mode: "history",
   routes: [
+
+    {
+      path: "/",
+      component: Hello
+    },
     
     {
       path: "/mainpage/info",
